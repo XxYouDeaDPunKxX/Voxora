@@ -36,6 +36,11 @@
   "guides": {
     "installation": "https://github.com/XxYouDeaDPunKxX/Voxora/blob/main/docs/INSTALL_AND_SETUP.md",
     "usage": "https://github.com/XxYouDeaDPunKxX/Voxora/blob/main/docs/USING_VOXORA.md",
-    "troubleshooting": "https://github.com/XxYouDeaDPunKxX/Voxora/blob/main/docs/TROUBLESHOOTING.md"
+    "troubleshooting": "https://github.com/XxYouDeaDPunKxX/Voxora/blob/main/docs/TROUBLESHOOTING.md",
+    "contributing": "https://github.com/XxYouDeaDPunKxX/Voxora/blob/main/CONTRIBUTING.md"
+  },
+  "contributing": {
+    "issues": "https://github.com/XxYouDeaDPunKxX/Voxora/issues/new",
+    "pullRequests": "https://github.com/XxYouDeaDPunKxX/Voxora/compare"
   }
 }

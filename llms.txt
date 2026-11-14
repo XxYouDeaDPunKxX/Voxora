@@ -26,5 +26,13 @@ The prebuilt experimental debug APK and its setup helper are offered in the v0.4
 
 Tested device: Samsung Galaxy Watch7. On-watch menus are in Italian. The integration relies on ChatGPT web-session behavior, which may change. Voxora is independent and is not affiliated with or endorsed by OpenAI.
 
+## Contributing
+
+Contributions are welcome: bug reports, clearer installation documentation, accessibility and watch UI improvements, and focused code changes. Do not include session cookies, tokens or private data in reports or pull requests.
+
+- Guide: https://github.com/XxYouDeaDPunKxX/Voxora/blob/main/CONTRIBUTING.md
+- Open an issue: https://github.com/XxYouDeaDPunKxX/Voxora/issues/new
+- Propose a pull request: https://github.com/XxYouDeaDPunKxX/Voxora/compare
+
 Machine manifest: https://xxyoudeadpunkxx.github.io/Voxora/raw-manifest.json
 Sitemap: https://xxyoudeadpunkxx.github.io/Voxora/sitemap.xml

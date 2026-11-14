@@ -125,6 +125,21 @@ code { color: #c9f5d5; background: #ffffff0d; padding: .1em .33em; border-radius
 .facts dt { color: #3e6550; font-size: .9rem; }
 .facts dd { margin: 0; font-size: .96rem; text-align: right; font-weight: 740; }
 
+.contribute-section { background: #d6eadd; padding: clamp(90px, 8vw, 130px) 0; }
+.contribute-grid { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr); align-items: start; gap: clamp(40px, 8vw, 130px); }
+.contribute-grid h2 { margin-top: 21px; }
+.contribute-grid h2 em { font-style: normal; color: #267249; }
+.contribute-copy > p { max-width: 520px; line-height: 1.7; color: #345e48; font-size: 1.02rem; }
+.contribute-copy > p + p { margin-top: 16px; }
+.inline-link { color: #175b37; font-weight: 730; text-decoration: underline; text-underline-offset: 3px; }
+.inline-link:hover { color: #267249; }
+.contribute-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 24px; margin-top: 30px; }
+.button-contribute { background: var(--deep); color: #effbf3; border: 1px solid var(--deep); }
+.button-contribute:hover { background: #184a32; }
+.contribute-link { font-size: .9rem; font-weight: 770; padding-bottom: 7px; border-bottom: 1px solid #427e5e; color: #174c32; }
+.contribute-link:hover { color: #267249; }
+.contribute-copy .contribute-note { margin-top: 25px; font-size: .83rem; line-height: 1.6; color: #315b44; }
+
 .site-footer { background: #071a14; color: #e6f7eb; }
 .footer-main { display: grid; grid-template-columns: 1fr 1.15fr 1fr; align-items: center; gap: 28px; min-height: 148px; padding-block: 36px; }
 .footer-main p { line-height: 1.55; color: #99b5a6; font-size: .82rem; }
@@ -152,7 +167,7 @@ code { color: #c9f5d5; background: #ffffff0d; padding: .1em .33em; border-radius
   .hero-copy { max-width: 660px; }
   .hero h1 { font-size: clamp(3.5rem, 9vw, 5.7rem); }
   .hero-visual { max-width: 470px; width: 100%; justify-self: center; }
-  .section-heading, .install-grid, .details-grid { grid-template-columns: 1fr; gap: 22px; }
+  .section-heading, .install-grid, .details-grid, .contribute-grid { grid-template-columns: 1fr; gap: 22px; }
   .section-heading > p { justify-self: start; max-width: 560px; }
   .feature-grid { grid-template-columns: 1fr; gap: 18px; }
   .feature-card { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); align-items: stretch; }
@@ -191,6 +206,10 @@ code { color: #c9f5d5; background: #ffffff0d; padding: .1em .33em; border-radius
   .steps p { font-size: .9rem; }
   .install-bottom { flex-direction: column; align-items: stretch; margin-top: 48px; }
   .details-section { padding-block: 82px; }
+  .contribute-section { padding-block: 82px; }
+  .contribute-grid { gap: 30px; }
+  .contribute-actions { align-items: stretch; flex-direction: column; gap: 20px; }
+  .contribute-link { align-self: flex-start; }
   .facts > div { grid-template-columns: 1fr; gap: 7px; padding: 18px 0; }
   .facts dd { text-align: left; }
   .footer-main { grid-template-columns: 1fr; gap: 22px; padding-block: 42px 27px; }
