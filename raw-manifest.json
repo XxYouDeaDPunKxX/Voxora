@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0",
+  "artifactType": "page",
+  "project": {
+    "name": "Voxora",
+    "description": "Experimental Wear OS application for ChatGPT conversations on Samsung Galaxy Watch7.",
+    "version": "0.4.1",
+    "repository": "https://github.com/XxYouDeaDPunKxX/Voxora",
+    "license": "https://github.com/XxYouDeaDPunKxX/Voxora/blob/main/LICENSE",
+    "release": "https://github.com/XxYouDeaDPunKxX/Voxora/releases/tag/v0.4.1"
+  },
+  "githubPages": {
+    "owner": "XxYouDeaDPunKxX",
+    "repository": "Voxora",
+    "type": "PROJECT_SITE",
+    "sourceBranch": "gh-pages",
+    "sourcePath": "/",
+    "customDomain": null,
+    "domainRoot": "https://xxyoudeadpunkxx.github.io/",
+    "siteRoot": "https://xxyoudeadpunkxx.github.io/Voxora/",
+    "discoveryRoot": "https://xxyoudeadpunkxx.github.io/Voxora/"
+  },
+  "pages": [
+    {
+      "url": "https://xxyoudeadpunkxx.github.io/Voxora/",
+      "title": "Voxora — ChatGPT conversations on your Galaxy Watch7",
+      "language": "en",
+      "contentType": "text/html"
+    }
+  ],
+  "discovery": {
+    "llms": "https://xxyoudeadpunkxx.github.io/Voxora/llms.txt",
+    "manifest": "https://xxyoudeadpunkxx.github.io/Voxora/raw-manifest.json",
+    "sitemap": "https://xxyoudeadpunkxx.github.io/Voxora/sitemap.xml"
+  },
+  "guides": {
+    "installation": "https://github.com/XxYouDeaDPunKxX/Voxora/blob/main/docs/INSTALL_AND_SETUP.md",
+    "usage": "https://github.com/XxYouDeaDPunKxX/Voxora/blob/main/docs/USING_VOXORA.md",
+    "troubleshooting": "https://github.com/XxYouDeaDPunKxX/Voxora/blob/main/docs/TROUBLESHOOTING.md"
+  }
+}

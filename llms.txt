@@ -1,0 +1,30 @@
+# Voxora
+
+> Experimental, independently developed Wear OS application for ChatGPT conversations on a Samsung Galaxy Watch7.
+
+Official project page (planned GitHub Pages URL): https://xxyoudeadpunkxx.github.io/Voxora/
+Source repository: https://github.com/XxYouDeaDPunKxX/Voxora
+Current release: https://github.com/XxYouDeaDPunKxX/Voxora/releases/tag/v0.4.1
+
+## What it does
+
+- Live Voice in a selected ChatGPT conversation, with microphone and speaker controls.
+- Conversation browsing, search, refresh, new chats and local favorites.
+- Dictation with a draft to review before sending.
+- Read Aloud for text responses, with playback controls.
+- Audio settings and Wear OS shortcuts.
+
+## Installation
+
+The prebuilt experimental debug APK and its setup helper are offered in the v0.4.1 release bundle. Installation uses Android Platform-Tools (ADB) on a computer. After installing, the user transfers their own ChatGPT web-session material through a locally run setup helper. No account credentials are included with the APK.
+
+- Install and setup: https://github.com/XxYouDeaDPunKxX/Voxora/blob/main/docs/INSTALL_AND_SETUP.md
+- Using Voxora: https://github.com/XxYouDeaDPunKxX/Voxora/blob/main/docs/USING_VOXORA.md
+- Troubleshooting: https://github.com/XxYouDeaDPunKxX/Voxora/blob/main/docs/TROUBLESHOOTING.md
+
+## Limits
+
+Tested device: Samsung Galaxy Watch7. On-watch menus are in Italian. The integration relies on ChatGPT web-session behavior, which may change. Voxora is independent and is not affiliated with or endorsed by OpenAI.
+
+Machine manifest: https://xxyoudeadpunkxx.github.io/Voxora/raw-manifest.json
+Sitemap: https://xxyoudeadpunkxx.github.io/Voxora/sitemap.xml
