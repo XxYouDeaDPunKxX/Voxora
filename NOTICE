@@ -1,0 +1,25 @@
+Voxora
+Copyright (c) 2026 XxYouDeaDPunKxX
+
+The Voxora source code is distributed under the MIT License. See LICENSE.
+
+The experimental ChatGPT Voice protocol integration adapts material from:
+  opencoredev/login-with-chatgpt
+  https://github.com/opencoredev/login-with-chatgpt
+  commit 3befb7fb625170cb305b116a654c7e2f8672bae4
+  MIT License; copyright (c) 2026 Leo
+
+The upstream files adapted for the Voice protocol are:
+  packages/core/src/realtime.ts
+  packages/core/src/realtime-browser.ts
+at the revision identified above. The upstream MIT license text is included
+at third_party/login-with-chatgpt-LICENSE.txt.
+
+The Voxora app icon was generated with AI.
+
+Voxora is an independent project. ChatGPT and OpenAI are trademarks or
+service marks of their respective owner. No affiliation or endorsement
+is claimed.
+
+Third-party dependencies and the license texts included with the
+distribution are listed in THIRD_PARTY_NOTICES.md.

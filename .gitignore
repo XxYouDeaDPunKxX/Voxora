@@ -1,0 +1,22 @@
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+
+# Local credentials and signing material
+.env
+.env.*
+*.jks
+*.keystore
+*.p12
+*.pfx
+provision*.json
+session*.json
+
+# Local logs and distributable binaries
+*.log
+*.jsonl
+*.hprof
+*.apk
+*.aab

@@ -1,0 +1,11 @@
+<resources>
+    <string name="voice_title">Voxora</string>
+    <string name="favorites_only">Solo preferiti</string>
+    <string name="favorite">Preferita</string>
+    <string name="volume_percent">Vol. %1$d%%</string>
+    <string name="captions_disabled">Didascalie disattivate nelle impostazioni</string>
+    <string name="tile_resume">Riprendi</string>
+    <string name="tile_new">Nuova</string>
+    <string name="tile_open">Apri</string>
+    <string name="open_voxora">Apri Voxora</string>
+</resources>
