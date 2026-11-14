@@ -69,6 +69,10 @@ You can also run `./build.ps1` on Windows PowerShell. The generated development 
 
 The [GitHub Actions workflow](.github/workflows/android-ci.yml) runs unit tests, a debug build, and lint with JDK 17 and Android SDK 35. It does not sign or publish APKs or test on a physical watch.
 
+## Contributing
+
+**Contributions are welcome.** Bug reports, installation and documentation improvements, accessibility work, and focused code changes are all useful. Read [CONTRIBUTING.md](CONTRIBUTING.md) for how to open an issue or pull request, run checks, and share logs without exposing private account data.
+
 ## Code provenance and licenses
 
 The project license is in [LICENSE](LICENSE). Voice protocol integration includes code adapted from [opencoredev/login-with-chatgpt](https://github.com/opencoredev/login-with-chatgpt) at revision `3befb7fb625170cb305b116a654c7e2f8672bae4`, under the MIT License. See [NOTICE](NOTICE), the [upstream license](third_party/login-with-chatgpt-LICENSE.txt), and [third-party notices](THIRD_PARTY_NOTICES.md).
