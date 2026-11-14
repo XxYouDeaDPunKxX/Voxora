@@ -67,7 +67,7 @@ sh ./gradlew testDebugUnitTest assembleDebug lintDebug
 
 You can also run `./build.ps1` on Windows PowerShell. The generated development APK appears under `app/build/outputs/apk/debug/`. This is separate from the APK prepared as a release asset.
 
-The [GitHub Actions workflow](.github/workflows/android-ci.yml) runs unit tests, a debug build, and lint with JDK 17 and Android SDK 35. Its first independent CI run is pending. It does not sign or publish APKs or test on a physical watch.
+The [GitHub Actions workflow](.github/workflows/android-ci.yml) runs unit tests, a debug build, and lint with JDK 17 and Android SDK 35. It does not sign or publish APKs or test on a physical watch.
 
 ## Code provenance and licenses
 
